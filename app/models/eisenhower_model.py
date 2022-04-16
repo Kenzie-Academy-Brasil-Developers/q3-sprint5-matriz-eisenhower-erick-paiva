@@ -1,6 +1,7 @@
 from email.policy import default
 from app.configs.database import db
 
+
 class Eisenhower(db.Model):
     id: int
     type: str
